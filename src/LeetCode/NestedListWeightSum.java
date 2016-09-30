@@ -36,6 +36,8 @@ public class NestedListWeightSum {
 
         // traverse all elements in nestedList
         for (NestedInteger ni : nestedList) {
+            // if it is integer, just add it (don't forget to multiply level)
+            // otherwise, use the recursive function to get the sum of nestedList
             sum += ni.isInteger() ? ni.getInteger() * level : helper(ni.getList(), level + 1);
         }
 
