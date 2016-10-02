@@ -10,7 +10,7 @@ public class LoggerRateLimiter {
     Map<String, Integer> map;
 
     /** Initialize your data structure here. */
-    public Logger() {
+    public LoggerRateLimiter() {
         map = new HashMap<>();
     }
 

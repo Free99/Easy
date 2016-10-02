@@ -12,7 +12,7 @@ public class MovingAverageFromDataStream {
     private Queue<Integer> q;
 
     /** Initialize your data structure here. */
-    public MovingAverage(int size) {
+    public MovingAverageFromDataStream(int size) {
         this.size = size;
         sum = 0;
         q = new LinkedList<>();
