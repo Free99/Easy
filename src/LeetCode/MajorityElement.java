@@ -15,5 +15,6 @@ public class MajorityElement {
                 count += maj == nums[i] ? 1 : -1;
             }
         }
+        return maj;
     }
 }
