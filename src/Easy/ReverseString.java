@@ -1,4 +1,4 @@
-package LeetCode;
+package Easy;
 
 /**
  * Created by Tianshan on 10/1/16.
