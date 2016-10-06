@@ -1,7 +1,5 @@
 package Easy;
 
-import LeetCode.ListNode;
-
 /**
  * Created by Tianshan on 10/5/16.
  */
