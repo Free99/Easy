@@ -1,4 +1,4 @@
-package LeetCode;
+package Easy;
 
 public class Main {
 
