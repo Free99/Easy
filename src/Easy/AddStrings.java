@@ -7,7 +7,6 @@ public class AddStrings {
     public String addStrings(String num1, String num2) {
         if (num1 == null || num1.length() == 0) return num2;
         if (num2 == null || num2.length() == 0) return num1;
-        int len1 = num1.length(), len2 = num2.length();
         int pos1 = num1.length() - 1, pos2 = num2.length() - 1;
         int carry = 0;
         StringBuilder sb = new StringBuilder();
