@@ -1,11 +1,11 @@
-import Easy.ValidWordAbbreviation;
+import Easy.AddStrings;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello world!");
-        ValidWordAbbreviation a = new ValidWordAbbreviation();
-        a.validWordAbbreviation("internationalization", "i12iz4n");
+        AddStrings a = new AddStrings();
+        System.out.println(a.addStrings("9929", "1321"));
     }
 }
