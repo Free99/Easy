@@ -12,7 +12,7 @@ public class DesignHitCounter {
     /**
      * Initialize your data structure here.
      */
-    public HitCounter() {
+    public DesignHitCounter() {
         q = new LinkedList<>();
     }
 
